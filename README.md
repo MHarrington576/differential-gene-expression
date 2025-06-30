@@ -10,3 +10,8 @@ These scripts will identify differentially expressed genes between normal tissue
 Initial GEMs are downloaded from [Wang et al (2018)](https://doi.org/10.1038/sdata.2018.61) and merged using [MergeGEM](https://github.com/feltus/mergegem.git).
 
 Bladder cancer is examined in this script, but the tissue of origin can be chosen from any data available in the Wang et al publication to remain functional with these scripts.
+
+Once GEMs are created, use the scripts in the following order:
+1. preprocess-gems.sh
+2. create-deg.R
+3. deg-volcano-plot.R
