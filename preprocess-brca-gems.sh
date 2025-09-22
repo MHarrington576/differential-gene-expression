@@ -24,4 +24,4 @@ cat merged-bc-gem-raw.labels.txt| sed 's/-/_/g' > merged-bc-gem-raw-dash.labels.
 cat merged-bc-gem-raw-dash.labels.txt | sed 's/\s/,/g' | sed 's/$/,EA_BRCA_AA/' > merged-bc-gem-raw.comparison.tmp
 
 #Make sample-group-comparison rows
-cat merged-bc-gem-raw.comparison.tmp | sed 's/sample,label,EA_BRCA_AA/Sample,Group,Comparison/' > bladder-gtex-tcga.comparison.csv
+cat merged-bc-gem-raw.comparison.tmp | sed 's/sample,label,EA_BRCA_AA/Sample,Group,Comparison/' > merged-bc-gem.comparison.csv
