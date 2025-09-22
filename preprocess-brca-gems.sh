@@ -1,7 +1,8 @@
 #!/bin/bash
 
-#Clone MergeGEM program
-git clone https://github.com/feltus/mergegem.git
+#Clone MergeGEM program, if needed
+#git clone https://github.com/feltus/mergegem.git
+#Make sure to remove dropping Entrez Gene ID from mergeGEM script
 
 python ./mergegem/mergegem.py ea_bc_gem.tsv aa_bc_gem.tsv merged-bc-gem-raw.txt
 
